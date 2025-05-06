@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",          // Use ES modules (instead of CommonJS)
+    "target": "ESNext",          // Target the latest ECMAScript version
+    "moduleResolution": "node",  // Resolve modules in the Node.js style
+    "esModuleInterop": true,     // Enables ES module interop
+    "allowSyntheticDefaultImports": true, // Allow default imports from non-default exporting modules
+    "strict": true,              // Enable strict type checking
+    "skipLibCheck": true,        // Skip library type checking for faster builds
+    "outDir": "./dist",          // Output directory for compiled files
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src/**/*"]        // Include all files in 'src' folder
+}
